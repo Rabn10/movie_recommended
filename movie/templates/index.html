@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movies Downloder</title>
+    <style>
+        *{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }   
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        padding: 1%;
+    }
+
+    .logo{
+    width: 10%;
+    float: left;
+    }
+
+    .menu{
+    line-height: 60px;  
+    }
+    .menu ul{
+        list-style-type: none;  
+    }
+
+    .menu ul li{
+        display: inline;
+        padding: 1%;
+        font-weight: bold;
+    }
+
+    .clearfix{
+        clear: both;
+        float: none;
+    }
+
+    .text-right{
+    text-align: right;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .text-left{
+        text-align: left;
+    }
+    .text-white{
+        color: white;
+    }
+
+    .float-container{
+    position: relative;
+    }
+    .float-text{
+        position: absolute;
+        bottom: 50px;
+        left: 40%;
+    }
+    fieldset{
+        border: 1px solid white;
+        margin: 5%;
+        padding: 3%;
+        border-radius: 5px;
+    }
+
+    a{
+    /* color: #ff6b81; */
+    text-decoration: none;
+    }
+    a:hover{
+        color: #3663de;
+    }
+    </style>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                   <h1>Movie Downloader</h1>
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">recommended</a>
+                    </li>
+                    <li>
+                        <a href="#">Login</a>
+                    </li> 
+                    <li>
+                        <a href="#">Sign up</a>
+                    </li> 
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+        
+        <div id="cards">
+            <div class="card">
+                <h1 class="title">Title</h1>
+                <img src="image1.jpg" alt="img" class="images">
+                <p>Description</p>
+                <p class="category">Category</p>
+                <p class="price">Price</p>
+            </div>
+        </div>
+
+        <div class="Overlay">
+            <div class="close" id="closeOverlay">&times;</div>
+            <div class="info"></div>
+          </div>
+    </div>
+     
+
+    
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
